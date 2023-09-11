@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ASDadataClient_Example' do
+  pod 'ASDadataClient', :path => '../'
+
+  target 'ASDadataClient_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
